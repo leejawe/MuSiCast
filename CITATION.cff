@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the MuSiCast manuscript when using this data demonstration."
+type: dataset
+title: "MuSiCast MeteoPair-SCC v1 paired-data demonstration"
+version: "0.1.0-demo"
+date-released: 2026-11-25
+url: "https://github.com/leejawe/MuSiCast"
+authors:
+  - family-names: Li
+    given-names: Jiawei
+  - family-names: Liu
+    given-names: Jie
+  - family-names: Zou
+    given-names: Hang
+  - family-names: Li
+    given-names: Kai
+  - family-names: Zhang
+    given-names: Qingyang
+    orcid: "https://orcid.org/0000-0001-7396-874X"

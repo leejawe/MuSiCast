@@ -1,0 +1,87 @@
+{
+  "dataset": "MeteoPair-SCC v1",
+  "release": "initial demonstration",
+  "valid_time_utc": "2020-01-15T12:00:00Z",
+  "sample_role": "One retained regional development/illustration patch; not an independent test dataset",
+  "grid_shape": [
+    64,
+    64
+  ],
+  "nominal_reference_spacing_m": 3000,
+  "fields": {
+    "forecast_u10": {
+      "shape": [
+        64,
+        64
+      ],
+      "dtype": "float32",
+      "units": "m/s"
+    },
+    "forecast_v10": {
+      "shape": [
+        64,
+        64
+      ],
+      "dtype": "float32",
+      "units": "m/s"
+    },
+    "reference_u10": {
+      "shape": [
+        64,
+        64
+      ],
+      "dtype": "float32",
+      "units": "m/s"
+    },
+    "reference_v10": {
+      "shape": [
+        64,
+        64
+      ],
+      "dtype": "float32",
+      "units": "m/s"
+    },
+    "latitude": {
+      "shape": [
+        64,
+        64
+      ],
+      "dtype": "float32",
+      "units": "degrees_north"
+    },
+    "longitude": {
+      "shape": [
+        64,
+        64
+      ],
+      "dtype": "float32",
+      "units": "degrees_east"
+    },
+    "elevation": {
+      "shape": [
+        64,
+        64
+      ],
+      "dtype": "float32",
+      "units": "m"
+    },
+    "land_mask": {
+      "shape": [
+        64,
+        64
+      ],
+      "dtype": "float32",
+      "units": "1"
+    }
+  },
+  "processing": "Original stored physical-unit paired tensors copied without resampling or additional wind rotation. Forecast fields have already been aligned to the reference grid; original native global files are not included.",
+  "index_order": "y, x",
+  "land_mask_values": "1=land; 0=water",
+  "source_patch": {
+    "y_start": 160,
+    "x_start": 352,
+    "source_index": 828
+  },
+  "sha256": "a196bdcfc340b8418329e1d9f6424529d6951d50e865213512d44c19acb3fec9",
+  "native_forecast_resolution": "See manuscript; demo stores the aligned representation, not a newly increased forecast resolution"
+}
